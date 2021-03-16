@@ -1132,6 +1132,10 @@ nav.fixed-top .nav-item .nav-link:before {
 	transform: translateY(0) rotate(10deg);
 }
 
+.choose-box:hover {
+	cursor: pointer;
+}
+
 .choose-icon {
 	width: 95px;
 	height: 60px;

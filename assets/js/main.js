@@ -431,3 +431,20 @@ JS INDEX
     slideShow('.slider', {
       isAutoplay: true
     });
+
+/* feature active */
+
+$( ".choose-box" ).click(function() {
+  $( ".active" ).removeClass("active");
+  $( this ).addClass("active ");
+  if( $(this).attr('id') == "one"){
+    $(".h2-gif").attr("src","assets/img/h2.gif");   
+  }
+  else if($(this).attr('id') == "two") {
+    $(".h2-gif").attr("src","assets/img/about.png");
+  }
+  else if($(this).attr('id') == "three"){
+    $(".h2-gif").attr("src","assets/img/Aquadoc.png");
+  }
+});
+
