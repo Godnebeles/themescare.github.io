@@ -838,8 +838,6 @@ nav.fixed-top .nav-item .nav-link:before {
 	margin-top: 50px;
 }
 
-
-
 .single-feature {
 	text-align: center;
 }
@@ -931,7 +929,6 @@ nav.fixed-top .nav-item .nav-link:before {
 .about-left img {
 	max-width: 100%;
 }
-
 
 /*================================================
 08 - VIDEO AREA CSS
@@ -1288,6 +1285,15 @@ nav.fixed-top .nav-item .nav-link:before {
 	padding: 30px;
 	border-radius: 10px
 }
+
+@media (max-width: 540px) {
+    .product-item {
+		text-align: center;
+	} 
+	.product-image img{
+		margin-left: auto;
+		margin-right: auto;
+	}}
 
 .product-text h3 {
 	font-size: 23px;
