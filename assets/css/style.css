@@ -1864,7 +1864,7 @@ nav.fixed-top .nav-item .nav-link:before {
 .slider {
 	position: relative;
 	overflow: hidden;
-	max-width: 600px;
+	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
   }
