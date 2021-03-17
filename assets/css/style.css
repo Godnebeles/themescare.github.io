@@ -1813,7 +1813,7 @@ nav.fixed-top .nav-item .nav-link:before {
 .footer-copyright p {
 	margin-top: 10px;
 	padding-top: 5px;
-	border-top: 2px solid #ddd;
+	border-bottom: 2px solid #ddd;
 	display: inline-block;
 	font-size: 14px;
 	font-weight: 600;
@@ -1821,10 +1821,32 @@ nav.fixed-top .nav-item .nav-link:before {
 	text-transform: uppercase;
 	color: #fff !important;
 	font-family: PlanetKosmos !important;
+	
+}
+
+.footer-text p {
+	margin-top: 10px;
+	padding-top: 5px;
+	
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #fff !important;
+	
 }
 
 .footer-logo img {
-	max-width: 100px;
+	max-width: 60px;
+	
+}
+
+.footer-logo {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 60px;
+	
 }
 
 .footer-box {
@@ -1884,7 +1906,9 @@ nav.fixed-top .nav-item .nav-link:before {
 	z-index: -1;
 }
 
-/* ============Slide=========== */
+/* ============SLIDER=========== */
+/*             SLADER            */
+/* ============SLIDER=========== */
 
 .pelum-slide-area {
 	
@@ -2021,7 +2045,6 @@ nav.fixed-top .nav-item .nav-link:before {
 	justify-content: center;
 	margin-left: auto;
 	margin-right: auto;
-	
 	max-width: 100%;
   }
 

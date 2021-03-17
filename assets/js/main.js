@@ -438,13 +438,13 @@ $( ".choose-box" ).click(function() {
   $( ".active" ).removeClass("active");
   $( this ).addClass("active ");
   if( $(this).attr('id') == "one"){
-    $(".h2-gif").attr("src","assets/img/h2.gif");   
+    $(".h2-gif").attr("src","assets/img/featuresbutton/PEM.jpg");   
   }
   else if($(this).attr('id') == "two") {
-    $(".h2-gif").attr("src","assets/img/about.png");
+    $(".h2-gif").attr("src","assets/img/featuresbutton/WCA_inside.jpg");
   }
   else if($(this).attr('id') == "three"){
-    $(".h2-gif").attr("src","assets/img/Aquadoc.png");
+    $(".h2-gif").attr("src","assets/img/featuresbutton/Filters.jpg");
   }
 });
 
