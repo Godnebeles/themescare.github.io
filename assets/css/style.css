@@ -1808,7 +1808,7 @@ img.comparison-table {
 ==================================================*/
 
 .pelum-footer-area {
-	background: url(../img/footer-bg.png) no-repeat scroll left/80%;
+	background: url(../img/footer-bg.png) no-repeat scroll top left/100%;
 	padding: 100px 0;
 	position: relative;
 	z-index: 1;
@@ -1836,7 +1836,7 @@ img.comparison-table {
 	display: inline-block;
 	font-size: 14px;
 	font-weight: 600;
-	
+	letter-spacing: 3px;
 	text-transform: uppercase;
 	color: #fff !important;
 	
