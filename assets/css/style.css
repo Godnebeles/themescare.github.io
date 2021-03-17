@@ -841,7 +841,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 img.comparison-table {
-	width: 1200px;
+	max-width: 100% !important;
 	
 }
 
