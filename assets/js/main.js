@@ -449,11 +449,11 @@ $( ".choose-box" ).click(function() {
 });
 
 $( "#faq-one" ).click(function() { 
-    $(".animation-jump").attr("src","assets/img/featuresbutton/PEM.jpg");   
+    $("#faq-picture").attr("src","assets/img/featuresbutton/PEM.jpg");   
 });
 $( "#faq-two" ).click(function() { 
-  $(".animation-jump").attr("src","assets/img/featuresbutton/WCA_inside.jpg");  
+  $("#faq-picture").attr("src","assets/img/featuresbutton/WCA_inside.jpg");  
 });
 $( "#faq-three" ).click(function() { 
-  $(".animation-jump").attr("src","assets/img/featuresbutton/Filters.jpg");  
+  $("#faq-picture").attr("src","assets/img/featuresbutton/Filters.jpg");  
 });
