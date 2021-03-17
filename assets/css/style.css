@@ -1835,7 +1835,7 @@ img.comparison-table {
 	font-family: ArialRounded !important;
 	display: inline-block;
 	font-size: 14px;
-	
+	font-weight: 600;
 	
 	text-transform: uppercase;
 	color: #fff !important;
