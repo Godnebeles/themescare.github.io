@@ -31,6 +31,14 @@
       <link rel="stylesheet" href="assets/css/style.css?1">
       <!--Responsive css-->
       <link rel="stylesheet" href="assets/css/responsive.css">
+      <script type="text/javascript">
+         $(document).ready(function(){	
+            $("#testimg2").glow({ radius: "10", color:"green" });
+         
+            //Blink with time Interval (timegap)
+            $("#testimg").glow({ radius: "20", color: "blue", disable: true, blink: true, timegap: 2000 });
+         });
+         </script>	
    </head>
    <body>
        
@@ -788,7 +796,8 @@
                   <div class="footer-box">
                      
                      <div class="footer-logo wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s">
-                        <a href="index.html"><img src="assets/img/favicon.ico" alt="footer logo" /></a>
+                        <!--<a href="index.html"><img id="testimg" src="assets/img/favicon.ico" alt="footer logo" /></a>-->
+                        
                      </div>
                      <div class="footer-copyright wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s">
                         <p>Biodynamic water</p>
@@ -813,6 +822,7 @@
        
        
       <!--Jquery js-->
+      <script src="assets/js/jquery.glow.js" type="text/javascript"></script>
       <script src="assets/js/jquery.min.js"></script>
       <!-- Popper JS -->
       <script src="assets/js/popper.min.js"></script>

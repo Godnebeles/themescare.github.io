@@ -432,6 +432,9 @@ JS INDEX
       isAutoplay: true
     });
 
+
+
+    $("#testimg").glow({ radius: "20", color:"green"});
 /* feature active */
 /*
 $( ".choose-box" ).click(function() {

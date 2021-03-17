@@ -1832,20 +1832,22 @@ img.comparison-table {
 .footer-text p {
 	margin-top: 10px;
 	padding-top: 5px;
-	
+	font-family: ArialRounded !important;
 	display: inline-block;
 	font-size: 14px;
-	font-weight: 600;
-	letter-spacing: 3px;
+	
+	
 	text-transform: uppercase;
 	color: #fff !important;
 	
 }
 
+
 .footer-logo img {
 	max-width: 60px;
 	
 }
+
 
 .footer-logo {
 	margin-left: auto;
