@@ -207,7 +207,7 @@ ol {
 li {
 	list-style-type: none;
 }
-/* test
+
 .pelum-btn {
 	background-color: #4777f4 !important;
 	border-radius: 40px;
@@ -225,24 +225,7 @@ li {
 	z-index: 1;
 	height: 45px
 }
-end test */
 
-.pelum-btn {
-	background-color: #4777f4 !important;
-	border-radius: 40px;
-	display: inline-block;
-	padding: 10px 55px;
-	text-transform: uppercase;
-	font-size: 20px;
-	color: #fff !important;
-	font-weight: 600;
-	line-height: 25px;
-	margin: 20px -55px 0 -50px;
-	letter-spacing: 0;
-	overflow: hidden;		
-	height: 45px
-
-}
 
 .pelum-btn span {
 	background: #0f083a none repeat scroll 0 0;
@@ -766,7 +749,7 @@ nav.fixed-top .nav-item .nav-link:before {
 .welcome-social img {
 	max-width: 40px;
 	margin-bottom: 35px;
-	z-index: 2;
+	
 }
 /*
 .welcome-social ul li a {
@@ -855,6 +838,11 @@ nav.fixed-top .nav-item .nav-link:before {
 	max-width: 100%;
 	text-align: center;
 	margin-top: 50px;
+}
+
+img.comparison-table {
+	width: 1200px;
+	
 }
 
 .single-feature {
