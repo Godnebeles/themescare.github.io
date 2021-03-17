@@ -433,7 +433,7 @@ JS INDEX
     });
 
 /* feature active */
-
+/*
 $( ".choose-box" ).click(function() {
   $( ".active" ).removeClass("active");
   $( this ).addClass("active ");
@@ -447,7 +447,7 @@ $( ".choose-box" ).click(function() {
     $(".h2-gif").attr("src","assets/img/featuresbutton/Filters.jpg");
   }
 });
-/*
+
 $( "#faq-one" ).click(function() { 
     $("#faq-picture").attr("src","assets/img/featuresbutton/PEM.jpg");   
 });
