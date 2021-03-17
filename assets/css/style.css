@@ -1815,6 +1815,11 @@ img.comparison-table {
 	overflow: hidden;
 }
 
+@media (max-width: 540px) {
+    .pelum-footer-area {
+		background: url(../img/footer-bg.png) no-repeat scroll top left;
+	} }
+
 .footer-copyright p {
 	margin-top: 10px;
 	padding-top: 5px;
